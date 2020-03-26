@@ -28,7 +28,7 @@ applications:
             - insights
     paths:
       - /settings/applications
-      
+
 approval:
   title: Approval
   api:
@@ -237,7 +237,6 @@ migration-analytics:
       - /migrations
       - /migrations/migration-analytics
   git_repo: https://github.com/project-xavier/xavier-ui
-  mailing_list: migration-analytics-devel@redhat.com
 
 openshift:
   title: OpenShift (OCM)
@@ -258,7 +257,7 @@ openshift:
         title: Subscriptions
         group: openshift
   top_level: true
-  
+
 rbac:
   title: Role-based Access Control
   api:
